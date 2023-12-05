@@ -1,0 +1,276 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: E115DCU PAS IMU
+VAL_TABLE_ Vt_Sensor_Status 3 "Fault" 2 "Low Reliability" 1 "No Sensor" 0 "Normol" ;
+VAL_TABLE_ Vt_System_Fault_Indication 1 "True" 0 "False" ;
+
+
+BO_ 2023 Test_Model_Local_Variables_16: 8 E115DCU
+ SG_ Test_Model_Local_Variables_16 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2022 Test_Model_Local_Variables_15: 8 E115DCU
+ SG_ Test_Model_Local_Variables_15 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2021 Test_Model_Local_Variables_14: 8 E115DCU
+ SG_ Test_Model_Local_Variables_14 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2020 Test_Model_Local_Variables_13: 8 E115DCU
+ SG_ Test_Model_Local_Variables_13 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2019 Test_Model_Local_Variables_12: 8 E115DCU
+ SG_ Test_Model_Local_Variables_12 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2018 Test_Model_Local_Variables_11: 8 E115DCU
+ SG_ Test_Model_Local_Variables_11 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2017 Test_Model_Local_Variables_10: 8 E115DCU
+ SG_ Test_Model_Local_Variables_10 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2016 Test_Model_Local_Variables_9: 8 E115DCU
+ SG_ Test_Model_Local_Variables_9 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 531 PAS_Status3: 8 PAS
+ SG_ Sig_Sensor_RRS_Status : 35|2@0+ (1,0) [0|3] ""  E115DCU
+ SG_ Sig_Sensor_RRS_Distance : 33|10@0+ (1,0) [0|1023] ""  E115DCU
+ SG_ Sig_Sensor_RLS_Status : 31|2@0+ (1,0) [0|3] ""  E115DCU
+ SG_ Sig_Sensor_RLS_Distance : 29|10@0+ (1,0) [0|1023] ""  E115DCU
+ SG_ Sig_Sensor_FRS_Status : 11|2@0+ (1,0) [0|3] ""  E115DCU
+ SG_ Sig_Sensor_FRS_Distance : 9|10@0+ (1,0) [0|1023] ""  E115DCU
+ SG_ Sig_Sensor_FLS_Status : 7|2@0+ (1,0) [0|3] ""  E115DCU
+ SG_ Sig_Sensor_FLS_Distance : 5|10@0+ (1,0) [0|1023] ""  E115DCU
+
+BO_ 530 PAS_Status2: 8 PAS
+ SG_ Sig_Sensor_RR_Status : 35|2@0+ (1,0) [0|3] ""  E115DCU
+ SG_ Sig_Sensor_RR_Distance : 33|10@0+ (1,0) [0|1023] ""  E115DCU
+ SG_ Sig_Sensor_RMR_Status : 31|2@0+ (1,0) [0|3] ""  E115DCU
+ SG_ Sig_Sensor_RMR_Distance : 29|10@0+ (1,0) [0|1023] ""  E115DCU
+ SG_ Sig_Sensor_RML_Status : 11|2@0+ (1,0) [0|3] ""  E115DCU
+ SG_ Sig_Sensor_RML_Distance : 9|10@0+ (1,0) [0|1023] ""  E115DCU
+ SG_ Sig_Sensor_RL_Status : 7|2@0+ (1,0) [0|3] ""  E115DCU
+ SG_ Sig_Sensor_RL_Distance : 5|10@0+ (1,0) [0|1023] ""  E115DCU
+
+BO_ 529 PAS_Status1: 8 PAS
+ SG_ Sig_System_Fault_Indication : 5|1@0- (1,0) [0|0] ""  E115DCU
+ SG_ Sig_Sensor_FR_Status : 43|2@0+ (1,0) [0|3] ""  E115DCU
+ SG_ Sig_Sensor_FR_Distance : 41|10@0+ (1,0) [0|1023] ""  E115DCU
+ SG_ Sig_Sensor_FMR_Status : 25|2@0+ (1,0) [0|3] ""  E115DCU
+ SG_ Sig_Sensor_FMR_Distance : 39|10@0+ (1,0) [0|1023] ""  E115DCU
+ SG_ Sig_Sensor_FML_Status : 23|2@0+ (1,0) [0|3] ""  E115DCU
+ SG_ Sig_Sensor_FML_Distance : 21|10@0+ (1,0) [0|1023] ""  E115DCU
+ SG_ Sig_Sensor_FL_Status : 3|2@0+ (1,0) [0|3] ""  E115DCU
+ SG_ Sig_Sensor_FL_Distance : 1|10@0+ (1,0) [0|1023] ""  E115DCU
+
+BO_ 769 Parking_UltraSonic: 8 PAS
+ SG_ UltraSonic_FRS : 55|16@0+ (1,0) [0|600] "cm"  E115DCU
+ SG_ UltraSonic_FLS : 39|16@0+ (1,0) [0|600] "cm"  E115DCU
+ SG_ UltraSonic_RLS : 23|16@0+ (1,0) [0|600] "cm"  E115DCU
+ SG_ UltraSonic_RRS : 7|16@0+ (1,0) [0|600] "cm"  E115DCU
+
+BO_ 1060 LatitudeLongitude: 8 IMU
+ SG_ PosLon : 39|32@0- (1E-007,0) [-214.7483648|214.7483648] "deg"  E115DCU
+ SG_ PosLat : 7|32@0- (1E-007,0) [-214.7483648|214.7483648] "deg"  E115DCU
+
+BO_ 1059 InsStatus: 8 IMU
+ SG_ GpsNumSats2 : 63|8@0+ (1,0) [0|255] ""  E115DCU
+ SG_ GpsNumSats : 55|8@0+ (1,0) [0|255] ""  E115DCU
+ SG_ GpsAge : 39|16@0+ (0.01,0) [0|655.35] ""  E115DCU
+ SG_ GpsNumSats2Used : 31|8@0+ (1,0) [0|255] ""  E115DCU
+ SG_ system_state : 7|8@0+ (1,0) [0|9] ""  E115DCU
+ SG_ satellite_status : 23|8@0+ (1,0) [0|9] ""  E115DCU
+ SG_ GpsNumSatsUsed : 15|8@0+ (1,0) [0|255] ""  E115DCU
+
+BO_ 1057 Ang_Rate_Raw_IMU: 8 IMU
+ SG_ AngRateRawZ : 47|20@0- (0.01,0) [-500|500] "deg/s"  E115DCU
+ SG_ AngRateRawY : 19|20@0- (0.01,0) [-500|500] "deg/s"  E115DCU
+ SG_ AngRateRawX : 7|20@0- (0.01,0) [-500|500] "deg/s"  E115DCU
+
+BO_ 1066 HeadingPitchRoll: 8 IMU
+ SG_ AngleRoll : 39|16@0- (0.01,0) [-180|180] "deg"  E115DCU
+ SG_ AnglePitch : 23|16@0- (0.01,0) [-90|90] "deg"  E115DCU
+ SG_ AngleHeading : 7|16@0+ (0.01,0) [0|360] "deg"  E115DCU
+
+BO_ 2045 Test_Model_Local_Variables_8: 8 E115DCU
+ SG_ Test_Model_Local_Variables_8 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2044 Test_Model_Local_Variables_7: 8 E115DCU
+ SG_ Test_Model_Local_Variables_7 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2043 Test_Model_Local_Variables_6: 8 E115DCU
+ SG_ Test_Model_Local_Variables_6 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2042 Test_Model_Local_Variables_5: 8 E115DCU
+ SG_ Test_Model_Local_Variables_5 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2041 Test_Model_Local_Variables_4: 8 E115DCU
+ SG_ Test_Model_Local_Variables_4 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2040 Test_Model_Local_Variables_3: 8 E115DCU
+ SG_ Test_Model_Local_Variables_3 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2039 Test_Model_Local_Variables_2: 8 E115DCU
+ SG_ Test_Model_Local_Variables_2 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+BO_ 2038 Test_Model_Local_Variables_1: 8 E115DCU
+ SG_ Test_Model_Local_Variables_1 : 7|64@0- (1,0) [0|0] "" Vector__XXX
+
+
+
+BA_DEF_ SG_  "GenSigTimeoutMsg_RPA" HEX 0 0;
+BA_DEF_ BO_  "StartDelay" INT 0 100;
+BA_DEF_ BO_  "DiagState" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagRequest" ENUM  "No","Yes";
+BA_DEF_ BO_  "DiagResponse" ENUM  "No","Yes";
+BA_DEF_ BO_  "NmMessage" ENUM  "No","Yes";
+BA_DEF_ BU_  "NmCAN" INT 1 2;
+BA_DEF_ BU_  "NmNode" ENUM  "No","Yes";
+BA_DEF_ BU_  "CANoeStartDelay" INT 0 10;
+BA_DEF_ BU_  "CANoeJitterMin" INT 0 0;
+BA_DEF_ BU_  "CANoeJitterMax" INT 0 0;
+BA_DEF_ BU_  "CANoeDrift" INT 0 0;
+BA_DEF_ BU_  "NmStationAddress" HEX 0 241;
+BA_DEF_  "BusType" STRING ;
+BA_DEF_  "NmType" STRING ;
+BA_DEF_  "NmBaseAddress" HEX 0 0;
+BA_DEF_  "NmMessageCount" INT 0 0;
+BA_DEF_  "Manufacturer" STRING ;
+BA_DEF_  "ILTxTimeout" INT 0 0;
+BA_DEF_ SG_  "GatewayedSignals" ENUM  "No","Yes";
+BA_DEF_  "Manufactor" STRING ;
+BA_DEF_ BU_  "NodelayerModules" STRING ;
+BA_DEF_ SG_  "GenSigInactiveValue" INT 0 10000;
+BA_DEF_ SG_  "GenSigStartValue" HEX 0 2147483648;
+BA_DEF_ SG_  "GenSigSendType" ENUM  "Cyclic","OnWrite","OnWriteWithRepetition","OnChange","OnChangeWithRepetition","IfActive","IfActiveWithRepetition","NoSigSendType";
+BA_DEF_ BO_  "GenMsgStartDelayTime" INT 0 65535;
+BA_DEF_ BU_  "ILUsed" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgILSupport" ENUM  "No","Yes";
+BA_DEF_ BO_  "GenMsgNrOfRepetition" INT 0 999999;
+BA_DEF_ BO_  "GenMsgDelayTime" INT 0 1000;
+BA_DEF_ BO_  "GenMsgCycleTimeFast" INT 0 10000;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 10000;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","NotUsed","NotUsed","NotUsed","NotUsed","Cyclic","NotUsed","IfActive","NoMsgSendType";
+BA_DEF_REL_ BU_SG_REL_  "GenSigSuprvResp" ENUM  "None","TimeoutFlag","TimeoutDefaultValue","TimeoutFlag and TimeoutDefaultValue";
+BA_DEF_REL_ BU_SG_REL_  "GenSigSuprvRespSubValue" INT 0 0;
+BA_DEF_REL_ BU_SG_REL_  "GenSigTimeoutTime" INT 0 0;
+BA_DEF_DEF_  "GenSigTimeoutMsg_RPA" 0;
+BA_DEF_DEF_  "StartDelay" 0;
+BA_DEF_DEF_  "DiagState" "No";
+BA_DEF_DEF_  "DiagRequest" "No";
+BA_DEF_DEF_  "DiagResponse" "No";
+BA_DEF_DEF_  "NmMessage" "No";
+BA_DEF_DEF_  "NmCAN" 2;
+BA_DEF_DEF_  "NmNode" "No";
+BA_DEF_DEF_  "CANoeStartDelay" 0;
+BA_DEF_DEF_  "CANoeJitterMin" 0;
+BA_DEF_DEF_  "CANoeJitterMax" 0;
+BA_DEF_DEF_  "CANoeDrift" 0;
+BA_DEF_DEF_  "NmStationAddress" 0;
+BA_DEF_DEF_  "BusType" "";
+BA_DEF_DEF_  "NmType" "GAC-OSEK";
+BA_DEF_DEF_  "NmBaseAddress" 1024;
+BA_DEF_DEF_  "NmMessageCount" 128;
+BA_DEF_DEF_  "Manufacturer" "GAC";
+BA_DEF_DEF_  "ILTxTimeout" 0;
+BA_DEF_DEF_  "GatewayedSignals" "No";
+BA_DEF_DEF_  "Manufactor" "GAC";
+BA_DEF_DEF_  "NodelayerModules" "CANoeILNLVector.dll";
+BA_DEF_DEF_  "GenSigInactiveValue" 0;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_DEF_DEF_  "GenSigSendType" "NoSigSendType";
+BA_DEF_DEF_  "GenMsgStartDelayTime" 0;
+BA_DEF_DEF_  "ILUsed" "Yes";
+BA_DEF_DEF_  "GenMsgILSupport" "No";
+BA_DEF_DEF_  "GenMsgNrOfRepetition" 0;
+BA_DEF_DEF_  "GenMsgDelayTime" 0;
+BA_DEF_DEF_  "GenMsgCycleTimeFast" 0;
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_REL_ "GenSigSuprvResp" "None";
+BA_DEF_DEF_REL_ "GenSigSuprvRespSubValue" 0;
+BA_DEF_DEF_REL_ "GenSigTimeoutTime" 0;
+BA_ "BusType" "CAN";
+BA_ "NmStationAddress" BU_ PAS 0;
+BA_ "GenMsgCycleTime" BO_ 2023 50;
+BA_ "GenMsgCycleTime" BO_ 2022 50;
+BA_ "GenMsgCycleTime" BO_ 2021 50;
+BA_ "GenMsgCycleTime" BO_ 2020 50;
+BA_ "GenMsgCycleTime" BO_ 2019 50;
+BA_ "GenMsgCycleTime" BO_ 2018 50;
+BA_ "GenMsgCycleTime" BO_ 2017 50;
+BA_ "GenMsgCycleTime" BO_ 2016 50;
+BA_ "GenMsgCycleTime" BO_ 531 50;
+BA_ "GenMsgILSupport" BO_ 531 1;
+BA_ "GenMsgCycleTime" BO_ 530 50;
+BA_ "GenMsgILSupport" BO_ 530 1;
+BA_ "GenMsgCycleTime" BO_ 529 50;
+BA_ "GenMsgILSupport" BO_ 529 1;
+BA_ "GenMsgCycleTime" BO_ 2045 50;
+BA_ "GenMsgCycleTime" BO_ 2044 50;
+BA_ "GenMsgCycleTime" BO_ 2043 50;
+BA_ "GenMsgCycleTime" BO_ 2042 50;
+BA_ "GenMsgCycleTime" BO_ 2041 50;
+BA_ "GenMsgCycleTime" BO_ 2040 50;
+BA_ "GenMsgCycleTime" BO_ 2039 50;
+BA_ "GenMsgCycleTime" BO_ 2038 50;
+VAL_ 531 Sig_Sensor_RRS_Status 3 "Fault" 2 "Low Reliability" 1 "No Sensor" 0 "Normol" ;
+VAL_ 531 Sig_Sensor_RLS_Status 3 "Fault" 2 "Low Reliability" 1 "No Sensor" 0 "Normol" ;
+VAL_ 531 Sig_Sensor_FRS_Status 3 "Fault" 2 "Low Reliability" 1 "No Sensor" 0 "Normol" ;
+VAL_ 531 Sig_Sensor_FLS_Status 3 "Fault" 2 "Low Reliability" 1 "No Sensor" 0 "Normol" ;
+VAL_ 530 Sig_Sensor_RR_Status 3 "Fault" 2 "Low Reliability" 1 "No Sensor" 0 "Normol" ;
+VAL_ 530 Sig_Sensor_RMR_Status 3 "Fault" 2 "Low Reliability" 1 "No Sensor" 0 "Normol" ;
+VAL_ 530 Sig_Sensor_RML_Status 3 "Fault" 2 "Low Reliability" 1 "No Sensor" 0 "Normol" ;
+VAL_ 530 Sig_Sensor_RL_Status 3 "Fault" 2 "Low Reliability" 1 "No Sensor" 0 "Normol" ;
+VAL_ 529 Sig_System_Fault_Indication 1 "True" 0 "False" ;
+VAL_ 529 Sig_Sensor_FR_Status 3 "Fault" 2 "Low Reliability" 1 "No Sensor" 0 "Normol" ;
+VAL_ 529 Sig_Sensor_FMR_Status 3 "Fault" 2 "Low Reliability" 1 "No Sensor" 0 "Normol" ;
+VAL_ 529 Sig_Sensor_FML_Status 3 "Fault" 2 "Low Reliability" 1 "No Sensor" 0 "Normol" ;
+VAL_ 529 Sig_Sensor_FL_Status 3 "Fault" 2 "Low Reliability" 1 "No Sensor" 0 "Normol" ;
+SIG_VALTYPE_ 2023 Test_Model_Local_Variables_16 : 2;
+SIG_VALTYPE_ 2022 Test_Model_Local_Variables_15 : 2;
+SIG_VALTYPE_ 2021 Test_Model_Local_Variables_14 : 2;
+SIG_VALTYPE_ 2020 Test_Model_Local_Variables_13 : 2;
+SIG_VALTYPE_ 2019 Test_Model_Local_Variables_12 : 2;
+SIG_VALTYPE_ 2018 Test_Model_Local_Variables_11 : 2;
+SIG_VALTYPE_ 2017 Test_Model_Local_Variables_10 : 2;
+SIG_VALTYPE_ 2016 Test_Model_Local_Variables_9 : 2;
+SIG_VALTYPE_ 2045 Test_Model_Local_Variables_8 : 2;
+SIG_VALTYPE_ 2044 Test_Model_Local_Variables_7 : 2;
+SIG_VALTYPE_ 2043 Test_Model_Local_Variables_6 : 2;
+SIG_VALTYPE_ 2042 Test_Model_Local_Variables_5 : 2;
+SIG_VALTYPE_ 2041 Test_Model_Local_Variables_4 : 2;
+SIG_VALTYPE_ 2040 Test_Model_Local_Variables_3 : 2;
+SIG_VALTYPE_ 2039 Test_Model_Local_Variables_2 : 2;
+SIG_VALTYPE_ 2038 Test_Model_Local_Variables_1 : 2;
+
